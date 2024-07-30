@@ -1,0 +1,21 @@
+import React from 'react'
+import "./Navbar.css"
+
+const Navbar = () => {
+  return (
+    <header className='header container'>
+            <div className='logo'>
+           <p>@Dilipaaa</p>
+           </div>
+
+           <div className="nav-links">
+            <a href="">About</a>
+            <a href="">Experience</a>
+            <a href="">Projects</a>
+            <a href="">Contact</a>
+           </div>
+    </header>
+  )
+}
+
+export default Navbar
