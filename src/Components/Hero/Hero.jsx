@@ -1,7 +1,7 @@
 import React from "react";
-import Heroimg from "../../../assets/heroimg.png";
-import linkedinimg from "../../../assets/linkedin.png";
-import githubimg from "../../../assets/github.png";
+import Heroimg from "../../assets/heroimg.png";
+import linkedinimg from "../../assets/linkedin.png";
+import githubimg from "../../assets/github.png";
 import "./Hero.css";
 
 const Hero = () => {

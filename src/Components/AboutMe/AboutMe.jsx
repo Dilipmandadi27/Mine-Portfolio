@@ -1,10 +1,10 @@
 import React from "react";
 import "./AboutMe.css";
-import Dp_img from "../../../assets/updatedme4.jpg";
-import Experienceimg from "../../../assets/experience.png";
-import Educationimg from "../../../assets/education.png";
-import slider from "../../../assets/arrow.png"
-import "../../../App.css"
+import Dp_img from "../../assets/updatedme4.jpg";
+import Experienceimg from "../../assets/experience.png";
+import Educationimg from "../../assets/education.png";
+import slider from "../../assets/arrow.png"
+import "../../App.css"
 
 const AboutMe = () => {
   return (

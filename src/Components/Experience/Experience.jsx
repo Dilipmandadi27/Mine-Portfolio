@@ -1,8 +1,8 @@
 import React from "react";
 import "./Experience.css";
-import checkmark from "../../../assets/checkmark.png";
-import slider from "../../../assets/arrow.png"
-import "../../../App.css"
+import checkmark from "../../assets/checkmark.png";
+import slider from "../../assets/arrow.png"
+import "../../App.css"
 
 const Experience = () => {
   return (

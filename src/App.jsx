@@ -1,10 +1,12 @@
 import React from 'react'
 import "./App.css"
 import Navbar from './Components/Navbar/Navbar'
-import Hero from './Components/Navbar/Hero/Hero'
-import AboutMe from './Components/Navbar/AboutMe/AboutMe'
-import Experience from './Components/Navbar/Experience/Experience'
-import Projects from './Components/Navbar/Projects/Projects'
+import Hero from './Components/Hero/Hero'
+import AboutMe from './Components/AboutMe/AboutMe'
+import Experience from './Components/Experience/Experience'
+import Projects from './Components/Projects/Projects'
+import ContactMe from './Components/Contact/ContactMe'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
       <AboutMe/>
       <Experience/>
       <Projects/>
+      <ContactMe/>
+      <Footer/>
     </>
   )
 }
