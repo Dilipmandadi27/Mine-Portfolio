@@ -1,5 +1,5 @@
 .Contact-us {
-  width: 600px;
+  width: 1150px;
   margin: 200px auto;
 }
 
@@ -72,4 +72,55 @@
 }
 
 
+/* mediaQueries */
+
+
+@media (max-width:1200px) {
+  .Contact-us {
+    min-width: 100%;
+    margin: 180px auto;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .headings p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(55, 55, 55);
+  }
+  
+  .headings h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: black;
+  }
+  
+
+}
+
+@media (max-width: 600px) {
+  .Contact-us {
+    max-width:100%;
+    margin: 180px auto;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+
+  .headings p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(55, 55, 55);
+  }
+  
+  .headings h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+  }
+
+
+
+}
 

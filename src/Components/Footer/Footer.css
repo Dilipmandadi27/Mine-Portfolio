@@ -1,6 +1,6 @@
 .footer{
     text-align: center;
-    width: 1280px;
+    width: 1150px;
     margin: 0 auto;
     background: black;
     min-height: 180px;
@@ -29,7 +29,41 @@
 
 }
 
-/* .navigation-links a:hover{
- 
-} */
+
+/* mediaQueries */
+
+
+@media (max-width:600px) {
+    .footer{
+        text-align: center;
+        min-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .footer p{
+        font-size: 18px;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .navigation-links {
+        margin-top: 100px;
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
+
+    .navigation-links a{
+        display: flex;
+        flex-direction: column;
+        padding: 18px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+    
+    }
+
+}
 
