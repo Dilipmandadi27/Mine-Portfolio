@@ -6,7 +6,9 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <main className="hero-section">
+    <section className="hero-section">
+      
+      <section className="main-section">
       <div className="hero-image">
         <img src={Heroimg} alt="hero-img" />
       </div>
@@ -25,7 +27,8 @@ const Hero = () => {
           <img src={githubimg} alt="github-logo" />
         </div>
       </div>
-    </main>
+      </section>
+    </section>
   );
 };
 
