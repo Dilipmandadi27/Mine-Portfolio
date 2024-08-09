@@ -3,8 +3,8 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer">
-       <div className="navigation-links">
+    <div className="footer ">
+       <div className="navigation-links btn-footer">
         <a href="">About</a>
         <a href="">Experience</a>
         <a href="">Projects</a>

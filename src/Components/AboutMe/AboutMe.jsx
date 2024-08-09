@@ -3,8 +3,8 @@ import "./AboutMe.css";
 import Dp_img from "../../assets/updatedme4.jpg";
 import Experienceimg from "../../assets/experience.png";
 import Educationimg from "../../assets/education.png";
-import slider from "../../assets/arrow.png"
-import "../../App.css"
+import slider from "../../assets/arrow.png";
+import "../../App.css";
 
 const AboutMe = () => {
   return (
@@ -15,7 +15,7 @@ const AboutMe = () => {
       </div>
 
       <div className="containerX">
-        <div className="about-img">
+        <div className="about-img ">
           <img src={Dp_img} alt="Dp_img" />
         </div>
 
@@ -35,12 +35,14 @@ const AboutMe = () => {
             </div>
           </div>
           <p className="para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-            reprehenderit et laborum, rem, dolore eum quod voluptate
-            exercitationem nobis, nihil esse debitis maxime facere minus sint
-            delectus velit in eos quo officiis explicabo deleniti dignissimos.
-            Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-            reiciendis ea magnam? Nulla, impedit fuga!{" "}
+            I’m an enthusiastic front-end developer embarking on my professional
+            journey with a deep passion for creating engaging and impactful web
+            experiences. I approach each project with a blend of creativity and
+            dedication, eager to turn innovative ideas into reality. With a
+            strong commitment to excellence and a drive for continuous learning,
+            I’m excited to contribute to a dynamic team and make a meaningful
+            impact. Ready to tackle challenges and grow in a thriving,
+            collaborative environment.
           </p>
         </section>
       </div>

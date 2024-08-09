@@ -25,8 +25,7 @@
 .containerX {
   display: flex;
   align-items: center;
-  gap: 60px;
-
+  gap: 30px;
 }
 
 .about-img img {
@@ -89,9 +88,10 @@
 
 .containerY .para {
   text-align: left;
-  font-size: 17px;
+  font-size: 18px;
   color: rgb(85, 85, 85);
-  line-height: 1.2;
+  line-height: 1.5;
+
 }
 
 /* media-queries */

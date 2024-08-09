@@ -1,6 +1,7 @@
 .Projects{
     width: 1150px;
     margin: 160px auto;
+    margin-bottom: 50px;
 }
 
 .headings{
@@ -40,6 +41,13 @@
     flex-direction: column;
 }
 
+.card1:hover{
+ /* transform: translateY(-10px); */
+ transition: 0.3s ease-in;
+ cursor: pointer;
+ scale: 1.05;
+}
+
 .img-container img{
     width: 280px;
     height: 280px;
@@ -48,6 +56,7 @@
 
 .project-navigation-btns{
     display: flex;
+    gap: 20px;
 
 }
 
@@ -57,7 +66,7 @@
 }
 
 
-.project-navigation-btns a button{
+/* .project-navigation-btns a button{
     margin-top: 10px;
     width: 129px;
     padding: 16px;
@@ -66,7 +75,99 @@
     color: black;
    margin-right: 18px;
    border: 2px solid black;
-}
+} */
+
+
+.project-navigation-btns a .btn1 {
+    margin-top: 15px;
+    width: 129px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: black;
+    margin-right: 18px;
+    border: 2px solid black;
+    position: relative;
+      z-index: 1;
+      overflow: hidden;
+      font-weight: 600;
+  }
+  
+  /* updated */
+  .btn1::before {
+    position: absolute;
+    content: "";
+    background-color: black;
+    width: 180px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+  .btn1:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+  }
+  
+  .project-navigation-btns a .btn1:hover {
+    color: white;
+  }
+  
+  .btn1:hover::before {
+    top: -110px;
+    left: -30px;
+  }
+  
+  
+  .project-navigation-btns .btn2 {
+    width: 129px;
+    padding: 16px;
+    border-radius: 40px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  
+  
+  .btn2::before {
+    position: absolute;
+    content: "";
+    background-color:white;
+    width: 180px;
+    height: 180px;
+    z-index: -1;
+    border-radius: 50%;
+    
+  }
+  
+  .btn2:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+  }
+  
+  .btn2:hover {
+    color: black;
+    border: 2px solid black;
+  }
+  
+  .btn2:hover::before {
+    top: -110px;
+    left: -30px;
+  }
+  
+  
+
+
+
 
 
 

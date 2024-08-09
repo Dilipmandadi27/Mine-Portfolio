@@ -18,13 +18,13 @@ const Hero = () => {
         <h3>Frontend Developer</h3>
 
         <a href="">
-          <button>Download CV</button>
+          <button className="btn1">Download CV</button>
         </a>
-        <button>Contact info</button>
+        <button className="btn2">Contact info</button>
 
         <div className="socials">
-          <img src={linkedinimg} alt="linkedin-logo" />
-          <img src={githubimg} alt="github-logo" />
+          <a href="https://www.linkedin.com/in/dilip-mandadi-b210332a1/"><img src={linkedinimg} alt="linkedin-logo" /></a>
+          <a href="https://github.com/Dilipmandadi27"><img src={githubimg} alt="github-logo" /></a>
         </div>
       </div>
       </section>

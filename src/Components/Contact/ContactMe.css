@@ -1,6 +1,7 @@
 .Contact-us {
   width: 1150px;
   margin: 200px auto;
+  height: 80vh;
 }
 
 .headings {
@@ -22,6 +23,150 @@
   color: black;
 }
 
+/* updated new */
+
+.main-division {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  background: rgb(203, 233, 244);min-height: 60vh;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.352);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.up {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.down {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.card11 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 90px 5px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.gmail {
+  margin-top: 1.5em;
+  margin-left: 1.2em;
+  fill: #cc39a4;
+}
+
+.card22 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 90px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.twitter {
+  margin-top: 1.5em;
+  margin-left: -0.9em;
+  fill: black;
+}
+
+.card33 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 5px 90px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.github {
+  margin-top: -0.6em;
+  margin-left: 1.2em;
+}
+
+.card44 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 90px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.linkedin {
+  margin-top: -0.9em;
+  margin-left: -1.2em;
+}
+
+.card11:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #de2124c8;
+}
+
+.card11:hover .instagram {
+  fill: white;
+}
+
+.card22:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: black;
+}
+
+.card22:hover .twitter {
+  fill: white;
+}
+
+.card33:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: black;
+}
+
+.card33:hover .github {
+  fill: white;
+}
+
+.card44:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #03a9f4;
+}
+
+.card44:hover .discord {
+  fill: white;
+}
+
 .Contact-us-contents {
   display: flex;
   align-items: center;
@@ -31,9 +176,73 @@
   font-size: 22px;
   border-radius: 20px;
   padding: 20px;
+  /* background-color: rgba(0, 0, 0, 0.352); */
+}
+.id-card {
+  width: 200px;
+  height: 274px;
+  background: #3405a3;
+  border-radius: 15px;
+  box-shadow: 1px 5px 60px 0px #100a886b;
 }
 
-.img_container {
+.id-card .id-card-border-top {
+  width: 60%;
+  height: 3%;
+  background: #6b64f3;
+  margin: auto;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.id-card span {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.id-card .job {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 12px;
+}
+
+.id-card .img {
+  width: 70px;
+  height: 80px;
+  background: #6b64f3;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 25px;
+}
+.img img {
+  width: 70px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.id-card button {
+  padding: 8px 25px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  background: #6b64f3;
+  color: white;
+  font-weight: 600;
+}
+
+.id-card button:hover {
+  background: #534bf3;
+}
+
+/* .img_container {
   display: flex;
   align-items: center;
 }
@@ -69,13 +278,11 @@
 .img2 a:hover {
   text-decoration: underline;
   color: rgb(55, 55, 55);
-}
-
+}  */
 
 /* mediaQueries */
 
-
-@media (max-width:1200px) {
+/* @media (max-width:1200px) {
   .Contact-us {
     min-width: 100%;
     margin: 180px auto;
@@ -122,5 +329,4 @@
 
 
 
-}
-
+} */

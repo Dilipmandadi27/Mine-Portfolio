@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <header className="header container">
       <div className="logo">
-        <p>@Dilipaaa</p>
+        <p>Dilipaaa</p>
       </div>
 
       <div className="nav-links">

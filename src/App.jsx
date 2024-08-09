@@ -10,7 +10,7 @@ import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
-    <>
+    < div className='containers'>
       <Navbar/>
       <Hero/>
       <AboutMe/>
@@ -18,7 +18,7 @@ const App = () => {
       <Projects/>
       <ContactMe/>
       <Footer/>
-    </>
+    </div>
   )
 }
 

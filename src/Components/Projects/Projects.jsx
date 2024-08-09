@@ -19,8 +19,20 @@ const Projects = () => {
               <div className="project-navigation">
                 <h2>Project One</h2>
                 <div className='project-navigation-btns'>
-                <a href=""><button>Github</button></a>
-                <a href=""><button>Live Demo</button></a>
+                <a href=""><button className='btn1'> Github</button></a>
+                <a href=""><button className='btn2'>Live Demo</button></a>
+                </div>
+              </div>
+            </div>
+            <div className="card1">
+              <div className="img-container">
+                <img src={Project_img} alt="img-1" />
+              </div>
+              <div className="project-navigation">
+                <h2>Project One</h2>
+                <div className='project-navigation-btns '>
+                <a href=""><button className='btn1'> Github</button></a>
+                <a href=""><button className='btn2'>Live Demo</button></a>
                 </div>
               </div>
             </div>
@@ -31,20 +43,8 @@ const Projects = () => {
               <div className="project-navigation">
                 <h2>Project One</h2>
                 <div className='project-navigation-btns'>
-                <a href=""><button>Github</button></a>
-                <a href=""><button>Live Demo</button></a>
-                </div>
-              </div>
-            </div>
-            <div className="card1">
-              <div className="img-container">
-                <img src={Project_img} alt="img-1" />
-              </div>
-              <div className="project-navigation">
-                <h2>Project One</h2>
-                <div className='project-navigation-btns'>
-                <a href=""><button>Github</button></a>
-                <a href=""><button>Live Demo</button></a>
+                <a href=""><button className='btn1'> Github</button></a>
+                <a href=""><button className='btn2'>Live Demo</button></a>
                 </div>
               </div>
             </div>

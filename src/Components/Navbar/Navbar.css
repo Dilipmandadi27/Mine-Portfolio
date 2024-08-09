@@ -5,14 +5,24 @@
     justify-content: space-between;
     margin: 0 auto;
     width: 1150px;
-    padding: 23px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 10px;
+
+    /* updated new */
+    /* background:linear-gradient(rgba(205, 166, 50, 0.566),rgba(66, 205, 50, 0.566),rgba(50, 205, 184, 0.566),rgba(192, 205, 50, 0.566)); */
+    border-radius: 50px;
+    box-shadow: 0 0 5px saddlebrown;   
 }
 
 
 .header .logo p{
     font-size: 35px;
     font-weight: 400;
+    color: black;
+    font-family: "Pacifico", cursive;
 }
+
 
 
 .header .nav-links a{
@@ -21,6 +31,11 @@
  font-size: 25px;
  font-weight: 400;
  color: black;
+}
+
+/* updated */
+.header .nav-links a:hover{
+font-weight: 800;
 }
 
 

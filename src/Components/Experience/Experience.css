@@ -43,6 +43,13 @@
     color: rgb(85, 85, 85);
 }
 
+.container_X:hover{
+    /* transform: translateY(-10px); */
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    scale: 1.05;
+   }
+
 .container_X h2{
     font-weight: 500;
 }
@@ -97,6 +104,13 @@
     font-size: 19px;
     color: rgb(85, 85, 85);
 }
+
+.container_Y:hover{
+    /* transform: translateY(-10px); */
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    scale: 1.05;
+   }
 
 .container_Y h2{
     font-weight: 500;
