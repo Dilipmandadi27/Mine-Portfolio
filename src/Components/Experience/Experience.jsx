@@ -1,8 +1,8 @@
 import React from "react";
 import "./Experience.css";
 import checkmark from "../../assets/checkmark.png";
-import slider from "../../assets/arrow.png"
-import "../../App.css"
+import slider from "../../assets/arrow.png";
+import "../../App.css";
 
 const Experience = () => {
   return (
@@ -85,7 +85,7 @@ const Experience = () => {
                 <img src={checkmark} alt="checkmark" />
               </div>
               <div className="contents">
-                <h3>Node Js</h3>
+                <h3>Redux</h3>
                 <p>Intermediate</p>
               </div>
             </div>
@@ -94,7 +94,7 @@ const Experience = () => {
                 <img src={checkmark} alt="checkmark" />
               </div>
               <div className="contents">
-                <h3>Express JS</h3>
+                <h3>Chakra UI</h3>
                 <p>Intermediate</p>
               </div>
             </div>
@@ -112,7 +112,7 @@ const Experience = () => {
                 <img src={checkmark} alt="checkmark" />
               </div>
               <div className="contents">
-                <h3>Git</h3>
+                <h3>Github</h3>
                 <p>Intermediate</p>
               </div>
             </div>

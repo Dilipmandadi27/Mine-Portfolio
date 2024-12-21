@@ -24,14 +24,14 @@ const AboutMe = () => {
             <div className="exp-section">
               <img src={Experienceimg} alt="Experience-img" />
               <h3>Experience</h3>
-              <p>2+ years</p>
+              <p> Hands-on Experience</p>
               <p>Frontend Development</p>
             </div>
             <div className="edu-section">
               <img src={Educationimg} alt="Education-img" />
               <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree</p>
-              <p>M.Sc. Masters Degree</p>
+              <p>Commerce Graduate(BCOM IT)</p>
+              <p>Pursuing Fullstack Web Development (Acciojob)</p>
             </div>
           </div>
           <p className="para">

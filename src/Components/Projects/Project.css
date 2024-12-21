@@ -1,70 +1,69 @@
-.Projects{
-    width: 1150px;
-    margin: 160px auto;
-    margin-bottom: 50px;
+.Projects {
+  width: 1150px;
+  margin: 140px auto;
+  margin-bottom: 50px;
 }
 
-.headings{
-    margin-bottom:35px;
-    line-height: 1.5;
-    word-spacing: 2px;
-    text-align: center;
+.headings {
+  margin-bottom: 30px;
+  line-height: 1.5;
+  word-spacing: 2px;
+  text-align: center;
 }
 
-.headings p{
-    font-size: 16px;
-    font-weight: 400;
-    color: rgb(55, 55, 55);
+.headings p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(55, 55, 55);
 }
 
-.headings h1{
-    font-size: 48px;
-    font-weight: 600;
-    color: black;
+.headings h1 {
+  font-size: 48px;
+  font-weight: 600;
+  color: black;
 }
 
-.Projects-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    line-height: 2;
-    gap: 35px;
+.Projects-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  line-height: 2;
+  gap: 35px;
 }
 
-.card1{
-    border: 2px solid rgb(163, 163, 163);
-    padding: 24px 23px;
-    border-radius: 30px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+.card1 {
+  border: 2px solid rgb(163, 163, 163);
+  padding: 24px 23px;
+  border-radius: 30px;
+  text-align: center;
+  display: flex;
+  transition: 1.5s all ease-in-out;
+  flex-direction: column;
 }
 
-.card1:hover{
- /* transform: translateY(-10px); */
- transition: 0.3s ease-in;
- cursor: pointer;
- scale: 1.05;
+.card1:hover {
+  /* transform: translateY(-10px); */
+
+  cursor: pointer;
+  scale: 1.05;
 }
 
-.img-container img{
-    width: 280px;
-    height: 280px;
-    border-radius: 20px;
+.img-container img {
+  width: 280px;
+  height: 280px;
+  border-radius: 20px;
 }
 
-.project-navigation-btns{
-    display: flex;
-    gap: 20px;
-
+.project-navigation-btns {
+  display: flex;
+  gap: 20px;
 }
 
-.project-navigation h2{
- font-size: 28px;
- font-weight: 500;
+.project-navigation h2 {
+  font-size: 28px;
+  font-weight: 500;
 }
-
 
 /* .project-navigation-btns a button{
     margin-top: 10px;
@@ -77,131 +76,117 @@
    border: 2px solid black;
 } */
 
-
 .project-navigation-btns a .btn1 {
-    margin-top: 15px;
-    width: 129px;
-    padding: 15px;
-    border-radius: 50px;
-    background-color: transparent;
-    color: black;
-    margin-right: 18px;
-    border: 2px solid black;
-    position: relative;
-      z-index: 1;
-      overflow: hidden;
-      font-weight: 600;
-  }
-  
-  /* updated */
-  .btn1::before {
-    position: absolute;
-    content: "";
-    background-color: black;
-    width: 180px;
-    height: 200px;
-    z-index: -1;
-    border-radius: 50%;
-  }
-  
-  .btn1:before {
-    top: 100%;
-    left: 100%;
-    transition: .3s all;
-  }
-  
-  .project-navigation-btns a .btn1:hover {
-    color: white;
-  }
-  
-  .btn1:hover::before {
-    top: -110px;
-    left: -30px;
-  }
-  
-  
-  .project-navigation-btns .btn2 {
-    width: 129px;
-    padding: 16px;
-    border-radius: 40px;
-    background-color: rgb(53, 53, 53);
-    color: white;
-    border: none;
-    font-size: 14px;
-    font-weight: 600;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    font-weight: 600;
-    margin-top: 15px;
-  }
-  
-  
-  .btn2::before {
-    position: absolute;
-    content: "";
-    background-color:white;
-    width: 180px;
-    height: 180px;
-    z-index: -1;
-    border-radius: 50%;
-    
-  }
-  
-  .btn2:before {
-    top: 100%;
-    left: 100%;
-    transition: .3s all;
-  }
-  
-  .btn2:hover {
-    color: black;
-    border: 2px solid black;
-  }
-  
-  .btn2:hover::before {
-    top: -110px;
-    left: -30px;
-  }
-  
-  
+  margin-top: 15px;
+  width: 129px;
+  padding: 15px;
+  border-radius: 50px;
+  background-color: transparent;
+  color: black;
+  margin-right: 18px;
+  border: 2px solid black;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  font-weight: 600;
+}
 
+/* updated */
+.btn1::before {
+  position: absolute;
+  content: "";
+  background-color: black;
+  width: 180px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 50%;
+}
 
+.btn1:before {
+  top: 100%;
+  left: 100%;
+  transition: 0.3s all;
+}
 
+.project-navigation-btns a .btn1:hover {
+  color: white;
+}
 
+.btn1:hover::before {
+  top: -110px;
+  left: -30px;
+}
 
+.project-navigation-btns .btn2 {
+  width: 129px;
+  padding: 16px;
+  border-radius: 40px;
+  background-color: rgb(53, 53, 53);
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  font-weight: 600;
+  margin-top: 15px;
+}
 
+.btn2::before {
+  position: absolute;
+  content: "";
+  background-color: white;
+  width: 180px;
+  height: 180px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.btn2:before {
+  top: 100%;
+  left: 100%;
+  transition: 0.3s all;
+}
+
+.btn2:hover {
+  color: black;
+  border: 2px solid black;
+}
+
+.btn2:hover::before {
+  top: -110px;
+  left: -30px;
+}
 
 /* media-queries */
 
 @media (max-width: 1200px) {
-  
-    .Projects{
-        min-width: 100%;
-        margin: 160px auto;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
+  .Projects {
+    min-width: 100%;
+    margin: 160px auto;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 
-  .Projects-section{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            line-height: 2;
-            gap: 30px;
-        }
+  .Projects-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    line-height: 2;
+    gap: 30px;
+  }
 
-        .card1{
-            border: 2px solid rgb(163, 163, 163);
-            padding: 18px;
-            border-radius: 30px;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-        }
+  .card1 {
+    border: 2px solid rgb(163, 163, 163);
+    padding: 18px;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
 }
-
 
 /* @media (max-width: 1045px) {
     .Projects-section{
@@ -217,18 +202,15 @@
 
   } */
 
-
-  @media (max-width: 600px) {
-    .Projects-section{
-        display: grid;
-        grid-template-columns: auto;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        line-height: 2;
-        padding-bottom: 50px;
-        gap: 50px;
-    }
-
-
+@media (max-width: 600px) {
+  .Projects-section {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    line-height: 2;
+    padding-bottom: 50px;
+    gap: 50px;
   }
+}

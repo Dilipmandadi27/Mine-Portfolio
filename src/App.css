@@ -1,24 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+Mongolian&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Pacifico&family=Playwrite+BE+VLG:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+Mongolian&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Pacifico&family=Playwrite+BE+VLG:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Rubik", sans-serif;
-
 }
 
-.containers{
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: fit-content;
+}
+
+.headings {
+  margin-bottom: 50px !important;
+}
+
+a,
+button {
+  cursor: pointer !important;
+}
+
+.containers {
   width: 1280px;
   margin: 30px auto;
   border-radius: 20px;
-
+  flex: 1;
 }
 
+/* .content_space {
+  margin-bottom: 20%;
+} */
 
-.slider img{
+.slider img {
   width: 40px;
   margin-top: 60px;
   float: right;
+  margin-bottom: 90px !important;
+}
+
+@media screen and (max-width: 1400px) {
+  .About-me {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-content {
+    flex-wrap: wrap;
+  }
+  .main,
+  .Projects {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    display: none;
+  }
+  .hamburger-nav {
+    display: flex;
+  }
+  .experience,
+  .Experience-section {
+    margin-top: 2rem;
+  }
+  .About-me,
+  .containerX {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .containerX {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .about-img {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-content {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main,
+  .footer {
+    height: 40vh;
+  }
+  .About-me {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  .tags {
+    font-size: 1rem;
+  }
+  .footer {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-content,
+  .contact-info-upper-container,
+  .btn1,
+  .btn2 {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .container_X h2,
+  .container_Y h2 {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .hero-image {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .hero-Content h3 {
+    font-size: 1.25rem;
+  }
+  /* .title {
+    font-size: 2rem;
+  } */
+  .para {
+    text-align: justify;
+  }
 }

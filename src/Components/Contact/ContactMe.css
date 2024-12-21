@@ -1,11 +1,20 @@
-.Contact-us {
+.contact-us-main {
   width: 1150px;
-  margin: 200px auto;
-  height: 80vh;
+  margin: 70px auto;
 }
 
+.edited_Contact-us {
+  margin-top: 150px !important;
+}
+
+/* .Contact-us {
+  width: 1150px;
+  margin: 0px auto;
+  height: 70vh;
+} */
+
 .headings {
-  margin-bottom: 35px;
+  margin-top: 20px;
   line-height: 1.5;
   word-spacing: 2px;
   text-align: center;
@@ -25,15 +34,14 @@
 
 /* updated new */
 
-.main-division {
+/* .main-division {
   margin-top: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 150px;
-  background: rgb(203, 233, 244);min-height: 60vh;
-}
-
+  min-height: 60vh;
+} */
 
 .main {
   display: flex;
@@ -41,8 +49,10 @@
   gap: 0.5em;
   padding: 20px;
   border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.352);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-left: 50px;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.111));
+  /* background-color: rgba(0, 0, 0, 0.352); */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
 }
 
 .up {
@@ -167,7 +177,7 @@
   fill: white;
 }
 
-.Contact-us-contents {
+/* .Contact-us-contents {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -175,9 +185,11 @@
   border: 2px solid rgb(163, 163, 163);
   font-size: 22px;
   border-radius: 20px;
-  padding: 20px;
-  /* background-color: rgba(0, 0, 0, 0.352); */
-}
+  padding: 20px;  */
+/* background-color: rgba(0, 0, 0, 0.352); */
+/* } */
+
+/* 
 .id-card {
   width: 200px;
   height: 274px;
@@ -240,7 +252,7 @@
 
 .id-card button:hover {
   background: #534bf3;
-}
+} */
 
 /* .img_container {
   display: flex;
@@ -330,3 +342,109 @@
 
 
 } */
+
+/* contact form details imported from college website  */
+.Contact-us {
+  display: flex;
+  align-items: center;
+  margin: 70px auto;
+  max-width: 90%;
+  gap: 150px;
+  margin-bottom: 20% !important;
+}
+
+.contact-us-content {
+  flex-basis: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: -80px;
+}
+
+.contact-us-content h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.contact-us-content h2 img {
+  width: 35px;
+}
+
+.contact-us-content p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(103, 103, 103);
+}
+
+.contact-us-content p img {
+  width: 25px;
+}
+
+.contact-us-form {
+  flex-basis: 52%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+input {
+  padding: 15px;
+  background-color: rgb(225, 226, 246);
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 13px;
+}
+label {
+  color: rgb(103, 103, 103);
+  margin-bottom: -4px;
+}
+
+textarea {
+  padding: 15px;
+  background-color: rgb(225, 226, 246);
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 13px;
+  resize: none;
+}
+
+/* .Contact-us form input, .Contact-us form textarea{
+  display: block;
+  width: 100%  ;
+  background-color: rgb(225, 226, 246);
+  padding: 15px;
+  border: 0;
+  outline: 0;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  resize: none;
+} */
+
+.btnn {
+  padding: 12px 0px;
+  border-radius: 30px;
+  width: 160px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: rgb(33, 46, 160);
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnn img {
+  width: 20px;
+  margin-left: 8px;
+}

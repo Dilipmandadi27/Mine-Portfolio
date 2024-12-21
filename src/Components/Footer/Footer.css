@@ -1,70 +1,65 @@
-.footer{
-    text-align: center;
-    width: 1280px;
-    margin: 0 auto;
-    background: #222222    ;
-    min-height: 180px;
-    color: white;
-    margin-top: -150px;
+.footer {
+  text-align: center;
+  width: 1150px;
+  margin: 0 auto;
+  background: #222222;
+  min-height: 180px;
+  color: white;
+  margin-top: -150px;
 }
 
-.footer p{
-    font-size: 22px;
-    color: white;
-    padding-top: 60px;
+.footer p {
+  font-size: 22px;
+  color: white;
+  padding-top: 60px;
 }
 
 .navigation-links {
-    margin-top: 70px;
-    text-align: center;
-    color: white;
-    padding: 20px;
+  margin-top: 70px;
+  text-align: center;
+  color: white;
+  padding: 20px;
 }
 
-.navigation-links a{
-    text-decoration: none;
-    padding-left: 25px;
-    font-size: 25px;
-    font-weight: 400;
-    color: white;
-
+.navigation-links a {
+  text-decoration: none;
+  padding-left: 25px;
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+  cursor: pointer !important;
 }
-
 
 /* mediaQueries */
 
+@media (max-width: 600px) {
+  .footer {
+    text-align: center;
+    min-width: 100%;
+    margin: 0 auto;
+  }
 
-@media (max-width:600px) {
-    .footer{
-        text-align: center;
-        min-width: 100%;
-        margin: 0 auto;
-    }
-    
-    .footer p{
-        font-size: 18px;
-        color: white;
-        padding-top: 30px;
-        padding-bottom: 20px;
-    }
+  .footer p {
+    font-size: 18px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
 
-    .navigation-links {
-        margin-top: 100px;
-        text-align: center;
-        color: white;
-        padding: 20px;
-    }
+  .navigation-links {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
 
-    .navigation-links a{
-        display: flex;
-        flex-direction: column;
-        padding: 18px;
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: 400;
-        color: white;
-    
-    }
-
+  .navigation-links a {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+  }
 }
-
